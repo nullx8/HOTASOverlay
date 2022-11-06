@@ -85,7 +85,7 @@
 }
 
 .custom .sticks:before{
-    content: "LATERAL";
+    content: "";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -98,7 +98,7 @@
 
 
 .custom .sticks:after{
-    content: "VERTICAL";
+    content: "";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -137,20 +137,20 @@
 }
 
 .custom .button.a:after{
-    content: "ECM";
+    content: "";
     right: 0;
-    width: 51px;
+    width: 0px;
 }
 
 .custom .button.b:after{
-    content: "SHIELD";
+    content: "";
     right: 0;
-    top: 45px;
+    top: 0px;
 }
 
 .custom .button.x:after{
-    content: "HEAT";
-    right: 80px;
-    top: 45px;
-    width: 47px
+    content: "";
+    right: 0px;
+    top: 0px;
+    width: 0px
 }
