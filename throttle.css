@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Audiowide:400,500');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
     width: 1900px;
     height: 360px;
-    font-family: 'Audiowide', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .custom .bumper.pressed:after, .custom .button.pressed:after{
