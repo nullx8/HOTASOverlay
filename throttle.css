@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
+@import url('https://fonts.googleapis.com/css?family=Audiowide:400,500');
 
 .custom.controller {
     width: 1900px;
     height: 360px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Audiowide', sans-serif;
 }
 
 .custom .bumper.pressed:after, .custom .button.pressed:after{
@@ -137,10 +137,20 @@
 }
 
 .custom .button.a:after{
+    content: "ECM";
+    right: 0;
+    width: 51px;
 }
 
 .custom .button.b:after{
+    content: "SHIELD";
+    right: 0;
+    top: 45px;
 }
 
 .custom .button.x:after{
+    content: "HEAT";
+    right: 80px;
+    top: 45px;
+    width: 47px
 }
